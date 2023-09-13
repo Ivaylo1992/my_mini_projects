@@ -9,7 +9,7 @@ characters = list(string.ascii_letters + string.digits + '!@#$%^&*()')
 def generate_password():
     # If yes, ask for length
 
-    password_length = int(input('How long would you like your password to be? '))
+    password_length = int(input('How long would you like your password to be?: '))
 
     random.shuffle(characters)
 
