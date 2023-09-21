@@ -1,6 +1,6 @@
 import random
 
-
+#creating a function that rolls the dice
 def roll():
     min_value = 1
     max_value = 6
@@ -8,7 +8,7 @@ def roll():
 
     return roll
 
-
+# getting the players input
 while True:
     players = input('Enter the number of players (1-4): ')
     if players.isdigit():
