@@ -1,9 +1,9 @@
-# a function that takes a list and a target parameter
 # multiple variables: middle, start, end and step
 # recursion or while loop
 # increase the steps each time a split is done
 # conditions to track target position
 
+# a function that takes a list and a target parameter
 def binary_search(lst, element):
     middle = 0
     start = 0
