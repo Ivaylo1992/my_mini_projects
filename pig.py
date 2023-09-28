@@ -23,6 +23,7 @@ while True:
 max_score = 50
 player_scores = [0 for _ in range(players)]
 
+#players turns
 while max(player_scores) < max_score:
     for player_idx in range(players):
         print(f'\nPlayer, {player_idx + 1} turn has just started!')
