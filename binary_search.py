@@ -25,7 +25,6 @@ def binary_search(lst, element):
 
     return - 1
 
-
 my_list = list(map(int, input('Enter your list of numbers, each separated by a single space: ').split()))
 target = int(input('Enter your target number: '))
 binary_search(my_list, target)
