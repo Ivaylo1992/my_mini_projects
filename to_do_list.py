@@ -24,6 +24,7 @@ def add_tasks(tasks):
 
 
 def view_tasks(tasks):
+    
     if not tasks:
         print('No tasks in the To-Do list.')
     else:
