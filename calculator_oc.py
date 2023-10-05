@@ -44,6 +44,7 @@ while True:
     if choice == "6":
         print(calculator.exit_condition())
         break
+    
     elif choice not in ("1", "2", "3", "4", "5"):
         print(calculator.invalid_condition())
         continue
