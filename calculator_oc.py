@@ -25,7 +25,6 @@ class Calculator:
     def invalid_condition(self):
         return 'Invalid input. Please try again.'
 
-
 calculator = Calculator()
 
 print(calculator.greeting())
