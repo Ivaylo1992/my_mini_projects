@@ -12,7 +12,7 @@ def binary_search(lst, element):
 
     while start <= end:
         print(f'Step {steps + 1} : {str(lst[start:end + 1])}')
-
+        
         steps += 1
         middle = (start + end) // 2
 
