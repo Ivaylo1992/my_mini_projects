@@ -12,7 +12,7 @@ class Calculator:
             "5": lambda: x ** y
         }
         return operations[choice]()
-
+        
     def greeting(self):
         return "Welcome to the Advanced Calculator!"
 
