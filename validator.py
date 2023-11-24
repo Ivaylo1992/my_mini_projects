@@ -27,7 +27,7 @@ def validate_email():
 
 
 def add_background():
-    background_image = PhotoImage(file='1652939127559.png')
+    background_image = PhotoImage(file='1652939127559.png') # Enter your background picture here
     background_label = tk.Label(root, image=background_image)
     background_label.place(relwidth=1, relheight=1)
     background_label.image = background_image
