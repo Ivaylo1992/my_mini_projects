@@ -9,7 +9,7 @@ def binary_search(lst, element):
     start = 0
     end = len(lst)
     steps = 0
-
+    
     while start <= end:
         print(f'Step {steps + 1} : {str(lst[start:end + 1])}')
         
