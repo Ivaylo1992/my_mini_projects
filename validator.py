@@ -5,7 +5,7 @@ from tkinter import PhotoImage
 
 def validate_email():
     email = entry_email.get()
-
+    
     if "@" not in email:
         result = 'Invalid email: missing "@"'
         color = 'red'
