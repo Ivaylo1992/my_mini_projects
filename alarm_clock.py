@@ -8,7 +8,7 @@ CLEAR_AND_RETURN = "\033[H"
 
 def alarm(seconds):
     time_elapsed = 0
-
+    
     print(CLEAR)
     while time_elapsed < seconds:
         time.sleep(1)
